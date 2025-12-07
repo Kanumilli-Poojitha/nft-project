@@ -1,0 +1,19 @@
+{
+  "name": "nft-project",
+  "version": "1.0.0",
+  "description": "Simple NFT Hardhat project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "ethers": "^6.8.0",
+    "hardhat": "^2.26.2",
+    "@openzeppelin/contracts": "^4.9.3",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  },
+  "type": "commonjs"
+}
